@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "fitpulse-d30cf",
+          "appId": "1:894307729847:android:ab9c1be7865a63e42ce832",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fitpulse-d30cf",
+          "configurations": {
+            "android": "1:894307729847:android:ab9c1be7865a63e42ce832",
+            "ios": "1:894307729847:ios:bb3530977291ce562ce832",
+            "macos": "1:894307729847:ios:bb3530977291ce562ce832",
+            "web": "1:894307729847:web:42b24fd9ea9381ba2ce832",
+            "windows": "1:894307729847:web:79d9780e22a50e612ce832"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
